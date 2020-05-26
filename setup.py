@@ -8,10 +8,6 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.rst"), encoding="utf-8") as readme:
     long_description = readme.read()
 
-if sys.argv[-1] == "publish":
-    os.system("python3 setup.py sdist upload")
-    sys.exit()
-
 setup(
     name="python-vzug",
     version="0.1.1",
@@ -22,6 +18,7 @@ setup(
     author_email="moritz@buetzer.bz",
     license="Apache License 2.0",
     install_requires=["requests"],
+    setup_requires=['wheel'],
     packages=find_packages(),
     zip_safe=True,
     include_package_data=True,
