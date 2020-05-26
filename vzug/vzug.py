@@ -1,4 +1,4 @@
-"""A Python Client to interact with V-ZUG devices"""
+"""A Python Client to get Infos from V-ZUG devices."""
 import logging
 import json
 import requests

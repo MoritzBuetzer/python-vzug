@@ -1,4 +1,4 @@
-"""Constants used by the Python API for interacting with V-ZUG devices."""
+"""Constants used by the Python V-ZUG API."""
 import pkg_resources
 
 try:

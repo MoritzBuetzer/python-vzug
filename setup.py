@@ -14,7 +14,7 @@ if sys.argv[-1] == "publish":
 
 setup(
     name="python-vzug",
-    version="0.1.0",
+    version="0.1.1",
     description="Python API for V-ZUG devices",
     long_description=long_description,
     url="https://github.com/MoritzBuetzer/python-vzug",

@@ -1,4 +1,4 @@
-"""Sample code to use the wrapper for interacting with the vzug device."""
+"""Sample code to get the device status from V-ZUG Device."""
 import asyncio
 
 from vzug.vzug import VZUG
@@ -8,7 +8,7 @@ USERNAME = "YOUR_USERNAME"
 PASSWORD = "YOUR_PASSWORD"
 
 async def main():
-    """Sample code to work with a V-ZUG unit."""
+    """Sample code to work with a V-ZUG Device."""
     async with VZUG(IP_ADDRESS, USERNAME, PASSWORD) as vzug:
         # Collect the data of the current state
         await vzug.get_device_status()
