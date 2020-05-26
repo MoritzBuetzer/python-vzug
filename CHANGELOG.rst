@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.1.2 (2020-05-26)
+------------------
+
+- GitHub Action for distribution
+- setup requires now wheel
+
 0.1.1 (2020-05-26)
 ------------------
 

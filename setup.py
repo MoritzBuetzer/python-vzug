@@ -10,7 +10,7 @@ with open(os.path.join(here, "README.rst"), encoding="utf-8") as readme:
 
 setup(
     name="python-vzug",
-    version="0.1.1",
+    version="0.1.2",
     description="Python API for V-ZUG devices",
     long_description=long_description,
     url="https://github.com/MoritzBuetzer/python-vzug",
