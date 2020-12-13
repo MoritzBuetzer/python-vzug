@@ -12,7 +12,9 @@ async def main():
     async with VZUG(IP_ADDRESS, USERNAME, PASSWORD) as vzug:
         # Collect the data of the current state
         await vzug.get_device_status()
+        await vzug.get_program_status()
         print("Device details:", vzug.device_status)
+        print("Program details:", vzug.program_status)
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
