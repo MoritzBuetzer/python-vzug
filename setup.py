@@ -17,7 +17,7 @@ setup(
     author="Moritz Bützer",
     author_email="moritz@buetzer.bz",
     license="Apache License 2.0",
-    install_requires=["requests"],
+    install_requires=["requests", "yarl"],
     setup_requires=['wheel'],
     packages=find_packages(),
     zip_safe=True,
